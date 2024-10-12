@@ -12,10 +12,15 @@
     pkgs.mc
     pkgs.nano
     pkgs.pipx
+    pkgs.screen
     pkgs.wget
     pkgs.whatsapp-for-mac
     pkgs.xquartz
     pkgs.yt-dlp
+    pkgs.zsh
+    pkgs.zsh-autosuggestions
+    pkgs.zsh-completions
+    pkgs.zsh-syntax-highlighting
     ];
 
 
