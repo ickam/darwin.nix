@@ -37,22 +37,21 @@
   # $ darwin-rebuild changelog
   system.stateVersion = 4;
 
-  #fonts.fontDir.enable = true;
-  #fonts.fonts = [
-   # pkgs.monaspace
- # ];
-
   homebrew = {
     enable = true;
 
     casks = [
+      "coteditor"
       "firefox"
+      "parsec"
       "signal"
     ];
 
     masApps = {
       "Amphetamine" = 937984704;
+      "Onedrive" = 823766827;
       "Infuse" = 1136220934;
+      "Word" = 462054704;
     };
   };
 
